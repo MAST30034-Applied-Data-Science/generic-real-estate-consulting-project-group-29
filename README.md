@@ -13,7 +13,7 @@ We are group 29.
 
 **Requirements:** 
 
-Please see requirements.txt to install packages required to run the pipeline
+Please see requirement.txt and requirements_2.txt to install packages required to run the pipeline
 
 
 
