@@ -9,9 +9,9 @@ We have also done some feature analysis using visualising both internal and exte
 
 ## API
 
-To get the distance to CBD, please run `API.ipynb`file under the `notebooks` section.
+To get the distance to CBD, please run `distance_to_cbd.ipynb`file under the `notebooks` section.
 
-To get the distance to train stations, please run `train station.ipynb`file under the `notebooks` section.
+To get the distance to train stations, please run `train_station.ipynb`file under the `notebooks` section.
 
 #  How to run the script
 
