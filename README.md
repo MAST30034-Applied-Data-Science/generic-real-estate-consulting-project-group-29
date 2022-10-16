@@ -5,7 +5,7 @@ We are group 29.
 
 VISUALISATION
 
-We have also done some feature analysis using visualising both internal and external data, which can be recreted using the `visualisation.ipynb` file under the `notebook` section.
+We have also done some feature analysis using visualising both internal and external data, which can be recreted using the `visualisation.ipynb` file under the `notebooks` section.
 
 ORS Api keys:   5b3ce3597851110001cf624891b5abbb2a54483d8a600850ca8c548f
                 5b3ce3597851110001cf624828611af684c746e9b1de6fe3a97c8289
