@@ -1,3 +1,9 @@
+
+"""
+This file is used to extract populaiton data, postcode as well as surburb name from webpages into surburb_population.csv
+It will travese each of webpage from "pages" folder
+"""
+
 import urllib, os, time
 from urllib.request import urlopen
 from bs4 import BeautifulSoup

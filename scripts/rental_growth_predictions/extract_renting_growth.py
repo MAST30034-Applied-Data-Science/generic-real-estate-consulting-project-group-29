@@ -1,4 +1,9 @@
 
+"""
+This script will extract renting price information from the page download from realstate 
+The information include median of housing price and unit price. 
+
+"""
 
 import urllib, os, time
 from urllib.request import urlopen

@@ -1,4 +1,7 @@
-
+"""
+This file will read the links in "surburb_link.txt", which contains the webpages of each surburb
+Then, it will save the webpages into local, in "pages" folder
+"""
 import urllib, os, time
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
