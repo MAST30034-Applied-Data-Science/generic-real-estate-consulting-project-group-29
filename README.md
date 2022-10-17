@@ -42,3 +42,4 @@ Then visit the `notebooks` directory and run the files in order:
 
 6. `summary_notebook.ipynb`: This notebook is used to conduct analysis on the curated data.
 7. `visualisation_maps.ipynb`: This notebook is used to create maps based on analysis for further visual insights.
+
