@@ -30,7 +30,7 @@ Then visit the `scripts` directory and run the files in order:
 
 from the population_growth_predictions folder 
 
-1. `save_page_into_local.py`: this script reads the links in "surburb_link.txt", and downloads all the webpages into a folder: "pages"
+1. `save_page_into_local.py`: this script reads the links in "suburb_link.txt", and downloads all the webpages into a folder: "pages"
 2. `extract_population_from_local.py`: thi script extracts population, postcode and surburb name into "surburb_population.csv"
 
  from the rental_growth_predictions folder
