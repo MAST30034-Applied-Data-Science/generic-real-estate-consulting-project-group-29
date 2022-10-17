@@ -30,12 +30,12 @@ Then visit the `scripts` directory and run the files in order:
 
 from the population_growth_predictions folder 
 
-1. `save_page_into_local.py`: this script reads the links in "suburb_link.txt", and downloads all the webpages into a folder: "pages"
-2. `extract_population_from_local.py`: thi script extracts population, postcode and surburb name into "surburb_population.csv"
+1. `save_page_into_local.py`: this script reads the links in "suburb_link.txt", and downloads all the webpages into a folder: "pages" automatically.
+2. `extract_population_from_local.py`: this script extracts population, postcode and suburb name into "suburb_population.csv"
 
  from the rental_growth_predictions folder
 
-3. copy the "pages" folder in 2.2 into this folder. We will extract the data from this folder.
+3. copy the "pages" folder in above into this folder. We will extract the another group of data from this folder.
 4. `extract_renting_growth.py`: this script extracts the renting information into "renting_growth.csv"
 
 Then visit the `notebooks` directory and run the files in order: 
