@@ -28,7 +28,13 @@ To run the pipeline, please visit the `notebooks` directory and run the files in
 
 Then visit the `scripts` directory and run the files in order: 
 
-from the population_growth_predictions folder 
+from the scrapy_house_renting folder 
+
+1. download and save all the webpages from realestate website manually, and put them into pages folder.
+There are about 300 webpages that I have downloaded, I only upload 6 webpages to github. Otherwise, put 300 webpages will be too big, about 200 MB.
+2. run scrapy.py, we will get a file, named "m.csv", it is a list about house information.
+3. run school_distance.py, we will get a "school.txt", it is a list about the distance between house to nearest school, hospital
+4. run merge.py, it will merge "m.csv" and "school.txt" together, we will get a "merge.csv". We rename it as "house_renting.csv". from the population_growth_predictions folder 
 
 1. `save_page_into_local.py`: this script reads the links in "suburb_link.txt", and downloads all the webpages into a folder: "pages" automatically.
 2. `extract_population_from_local.py`: this script extracts population, postcode and suburb name into "suburb_population.csv"
